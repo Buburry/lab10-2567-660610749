@@ -1,8 +1,9 @@
 "use client";
 
+import { UserCardDetail } from "@/libs/types";
 import { IconMailForward, IconMapPins } from "@tabler/icons-react";
 
-export default function UserCardDetail({ email, address }) {
+export default function UserCardDetail({ email, address }: UserCardDetail) {
   return (
     <div className="text-center">
       <p>
