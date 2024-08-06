@@ -9,8 +9,8 @@ export type {UserCardProps};
 
 // add type for UserCardDetail's Props
 
-interface UserCardDetail{
+interface UserCardDetailprops{
     email: string;
     address: string;
 }
-export type {UserCardDetail};
+export type {UserCardDetailprops};
